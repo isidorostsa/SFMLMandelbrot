@@ -1,10 +1,14 @@
+/* Copyright (c) 2020, Tsaousis Seiras Isidoros                          *
+ * All rights reserved.                                                  *
+ *                                                                       *
+ * This source code is licenced under the BSD-style license found in the *
+ * LICENSE file in the root directory of this source tree.               */
+
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <cmath>
 
-#include "definitions.h"
-
-//  DOUBLE VERSION 
+#include "definitions.h" 
 
 struct Point{
     double x, y;
