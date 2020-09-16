@@ -165,9 +165,7 @@ size_t Check(double re, double im){
         double c_im_new = 2*c_re*c_im + im;
 
         if(c_re_new*c_re_new + c_im_new*c_im_new >= 4)
-        {
             return iter;
-        }
 
         c_re = c_re_new;
         c_im = c_im_new;
